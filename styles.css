@@ -30,40 +30,54 @@ body {
 }
 
 .box-father.one {
-  background-color: aqua;
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   align-items: center;
   padding: 1rem;
-
-}
-
-.box.one {
-  background-color: black;
 }
 
 .box-father.two {
-  background-color: blue;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  gap: 2rem;
-  flex-direction: row-reverse;
-}
-
-.box.two {
-  background-color: chartreuse;
 }
 
 .box-father.three {
-  background-color: brown;
   display: flex;
-  justify-content: space-around;
+  justify-content: end;
   align-items: center;
   padding: 1rem;
 }
 
+.box.one {
+  background-color: rgb(255, 0, 0);
+}
+
+.box.two {
+  background-color: rgba(255, 0, 0, 0.879);
+}
+
 .box.three {
-  background-color: blanchedalmond;
+  background-color: rgba(255, 0, 0, 0.677);
+}
+
+.box.four {
+  background-color: rgba(255, 0, 0, 0.403);
+}
+
+#color-box-one {
+  background-color: aqua;
+}
+
+#color-box-two {
+  background-color: rgba(0, 255, 255, 0.819);
+}
+
+#color-box-three {
+  background-color: rgba(127, 255, 212, 0.556);
+}
+
+#color-box-four {
+  background-color: rgba(127, 255, 212, 0.304);
 }
